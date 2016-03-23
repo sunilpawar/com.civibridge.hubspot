@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/hubspot/settings</path>
+    <page_callback>CRM_Hubspot_Form_Setting</page_callback>
+    <title>Setting</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/hubspot/sync</path>
+    <page_callback>CRM_Hubspot_Form_Sync</page_callback>
+    <title>Sync</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/hubspot/pull</path>
+    <page_callback>CRM_Hubspot_Form_Pull</page_callback>
+    <title>Pull</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

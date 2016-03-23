@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<extension key="com.civibridge.hubspot" type="module">
+  <file>hubspot</file>
+  <name>HubSpot</name>
+  <description>CiviCRM and HubSpot Integration. Adding the ability to keep HubSpot List and CiviCRM group in sync, keeping the entire process much simpler to setup.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Sunil Pawar</author>
+    <email>esunil.pawar@gmail.com</email>
+  </maintainer>
+  <releaseDate>2016-03-12</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.6</ver>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>Developed by Sunil Pawar</comments>
+  <civix>
+    <namespace>CRM/Hubspot</namespace>
+  </civix>
+</extension>
